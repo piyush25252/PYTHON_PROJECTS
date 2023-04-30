@@ -1,6 +1,6 @@
 import random
 import time
- ***********OTP GENERATOR***********
+#***********OTP GENERATOR***********
 print("******WELCOME TO THE OTP GENERATOR******\n")
 print("******WELCOME TO THE OTP GENERATOR******")
 time.sleep(1)
