@@ -3,47 +3,47 @@ import time
 
 
 # **************** rock paper scissor with human ******************
-# name=input("HEY BUDDY WHATS YOUR GOOD NAME:")
-# print(f'''HELLO {name}, LET US PLAY ROCK PAPER SCISSOR
-# I AM SURE YOU WILL DEFINATELY GOING TO ENJOY''')
-# print()
-# time.sleep(1)
+name=input("HEY BUDDY WHATS YOUR GOOD NAME:")
+print(f'''HELLO {name}, LET US PLAY ROCK PAPER SCISSOR
+I AM SURE YOU WILL DEFINATELY GOING TO ENJOY''')
+print()
+time.sleep(1)
    
-# print(f'''HOPE YOU KNOW THE BASICS OF THE GAME 
-# FOR YOUR CONVENINCE I WOULD LIKE TO REMIND YOU OF THE RULES FOLLOWED IN IT
-# 1.ROCKS BEATS SCISSOR
-# 2.SCISSOR BEATS PAPER
-# 3.PAPER BEATS ROCK''')
-# print()
-# print(f'''GAME STARTS IN''')
-# n=3
-# while(n>=1):
-#     time.sleep(1)
-#     print(n)
-#     n=n-1
-# print(f'''LETS GO!!!!''') 
-# print()
-# c=0
-# a=1
-# d=0
-# while(a):
-#     print(f'''***********ATTENTION!!!************''')
-#     print(f'''ENTER THE SPEELINGS IN "UPPERCASE" i.e ROCK,PAPER,SCISSOR''' )
-#     print()
-#     choice=input("ENTER YOUR CHOICE: ")
-#     l=["ROCK","PAPER","SCISSOR"]
-#     q=random.choice(l)
-#     d=d+1
-#     if (q==choice):
-#         print("You Wins!!!")
-#         c=c+1
-#     else :
-#         print("BETTER LUCK NEXT TIME")
-#         print("******HOPE U ARE ENJOYING IT******")
-#     print(f'''WOULD YOU LIKE TO CONTINUE?
-#     IF YES PRESS:- 1
-#     IF NOT PRESS:- 0
-#     ''')
-#     a=int(input())
-# print(f''' YOUR SCORE IS : {c}
-# YOUR WINNING RATE IS : {(c/d)*100}%''')   
+print(f'''HOPE YOU KNOW THE BASICS OF THE GAME 
+FOR YOUR CONVENINCE I WOULD LIKE TO REMIND YOU OF THE RULES FOLLOWED IN IT
+1.ROCKS BEATS SCISSOR
+2.SCISSOR BEATS PAPER
+3.PAPER BEATS ROCK''')
+print()
+print(f'''GAME STARTS IN''')
+n=3
+while(n>=1):
+    time.sleep(1)
+    print(n)
+    n=n-1
+print(f'''LETS GO!!!!''') 
+print()
+c=0
+a=1
+d=0
+while(a):
+    print(f'''***********ATTENTION!!!************''')
+    print(f'''ENTER THE SPEELINGS IN "UPPERCASE" i.e ROCK,PAPER,SCISSOR''' )
+    print()
+    choice=input("ENTER YOUR CHOICE: ")
+    l=["ROCK","PAPER","SCISSOR"]
+    q=random.choice(l)
+    d=d+1
+    if (q==choice):
+        print("You Wins!!!")
+        c=c+1
+    else :
+        print("BETTER LUCK NEXT TIME")
+        print("******HOPE U ARE ENJOYING IT******")
+    print(f'''WOULD YOU LIKE TO CONTINUE?
+    IF YES PRESS:- 1
+    IF NOT PRESS:- 0
+    ''')
+    a=int(input())
+print(f''' YOUR SCORE IS : {c}
+YOUR WINNING RATE IS : {(c/d)*100}%''')   
