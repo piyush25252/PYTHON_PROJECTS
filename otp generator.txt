@@ -1,14 +1,13 @@
 import random
 import time
-
-# ***********OTP GENERATOR***********
-# print("******WELCOME TO THE OTP GENERATOR******\n")
-# print("******WELCOME TO THE OTP GENERATOR******")
-# time.sleep(1)
-# print()
-# le=int(input("ENTER THE LENGTH OF THE OTP YOU WANT!!! "))
-# low=10**(le-1)
-# upp=str(9)*le
-# upp=int(upp)
-# otp=random.randint(low,upp)
-# print(otp)
+ ***********OTP GENERATOR***********
+print("******WELCOME TO THE OTP GENERATOR******\n")
+print("******WELCOME TO THE OTP GENERATOR******")
+time.sleep(1)
+print()
+le=int(input("ENTER THE LENGTH OF THE OTP YOU WANT!!! "))
+low=10**(le-1)
+upp=str(9)*le
+upp=int(upp)
+otp=random.randint(low,upp)
+print(otp)
