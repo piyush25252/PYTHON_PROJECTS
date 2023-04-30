@@ -2,17 +2,17 @@ import random
 import time
 # ************** guess the number **************
 
-# l=int(input("ENTER THE LOWER LIMIT"))
-# u=int(input("ENTER THE UPPER LIMIT"))
-# number=random.randint(l,u)
-# score=10
-# p=int(input("ENTER THE CHOICE"))
-# while(number!=p or score <1):
-#     score=score-1
-#     if (p>number):
-#         print("\nIt's close but less than the exact answer\n")
-#     elif(p<number):
-#         print("\nIt's close but more than the exact answer")
-#     p=int(input("\nOOPS!!!!!,Keep it up you can do it\n pls try one more time\n"))    
-# print("Congratulations!!!!! Your Score is :", score) 
-# print("Your attempts were:",10-score)
+l=int(input("ENTER THE LOWER LIMIT"))
+u=int(input("ENTER THE UPPER LIMIT"))
+number=random.randint(l,u)
+score=10
+p=int(input("ENTER THE CHOICE"))
+while(number!=p or score <1):
+    score=score-1
+    if (p>number):
+        print("\nIt's close but less than the exact answer\n")
+    elif(p<number):
+        print("\nIt's close but more than the exact answer")
+    p=int(input("\nOOPS!!!!!,Keep it up you can do it\n pls try one more time\n"))    
+print("Congratulations!!!!! Your Score is :", score) 
+print("Your attempts were:",10-score)
